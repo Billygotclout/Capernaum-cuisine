@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reservation.css" />
+    <title>Book A Table</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <h3><a href="/"> Capernaum Cuisine</a></h3>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="">Resto</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Special</a></li>
+            <li><a href="">Reservation</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="form-wrap">
+            <h1>Reservation</h1>
+            <p>
+                Please choose your reservation date with specific time and number of
+                people to book a table
+            </p>
+            <form>
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="firstName" id="first-name" />
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+
+               
+                <div class="col">
+                    <div class="form-group">
+                        <label for="no_of_people">Number of people</label>
+                        <input type="text" name="no_of_people" id="no_of_people" />
+                    </div>
+                    <div class="form-group">
+                        <label for="type_of_table">Type of people</label>
+                        <input type="text" name="type_of_table" id="type_of_table" />
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date" />
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" name="time" id="time" />
+                    </div>
+                    
+                </div>
+                <button type="submit" class="btn">Book A Table</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
